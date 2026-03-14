@@ -20,6 +20,8 @@ export const metadata: Metadata = {
   authors: [{ name: "Mock Exams Team" }],
   icons: {
     icon: "/logo.svg",
+    shortcut: "/logo.svg",
+    apple: "/logo.svg",
   },
   openGraph: {
     title: "Mock Exams Platform",
