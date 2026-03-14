@@ -130,11 +130,11 @@ function HomeScreen({ onSelectExam }: { onSelectExam: (exam: ExamConfig) => void
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <div className="bg-gradient-to-r from-blue-600 to-indigo-600 p-2.5 rounded-xl shadow-lg">
-                <BookOpen className="h-6 w-6 text-white" />
+                <img src="/logo.svg" alt="Mock Exams Platform" className="h-7 w-7" />
               </div>
               <div>
-                <h1 className="text-xl font-bold text-gray-900">Gov Exam Practice Portal</h1>
-                <p className="text-xs text-gray-500">SSC • RRB • UPSC • State PSC • Previous Year Papers</p>
+                <h1 className="text-xl font-bold text-gray-900">Mock Exams Platform</h1>
+                <p className="text-xs text-gray-500">Practice mock exams and past papers for SSC, RRB, UPSC, and state PSC.</p>
               </div>
             </div>
             <div className="hidden md:flex items-center gap-4">
